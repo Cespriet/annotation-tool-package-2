@@ -49,8 +49,8 @@ source venv/bin/activate
 
 # Install requirements
 echo -e "${BLUE}Installing/upgrading dependencies (this may take a few minutes for ML packages)...${NC}"
-pip install --upgrade pip
-pip install -r requirements.txt
+./venv/bin/python -m pip install --upgrade pip
+./venv/bin/python -m pip install -r requirements.txt
 if [ $? -ne 0 ]; then
     echo -e "${RED}Error: Failed to install requirements.${NC}"
     exit 1
@@ -68,4 +68,4 @@ elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     (sleep 2 && xdg-open "http://127.0.0.1:5000") &
 fi
 
-python app.py
+./venv/bin/python app.py

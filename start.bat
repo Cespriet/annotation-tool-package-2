@@ -6,6 +6,7 @@ echo === Starting Annotation Enhanced App Setup ===
 python --version >nul 2>&1
 if %errorlevel% neq 0 (
     echo Error: python is not installed. Please install Python 3.
+    pause
     exit /b 1
 )
 
@@ -13,6 +14,7 @@ if %errorlevel% neq 0 (
 ollama --version >nul 2>&1
 if %errorlevel% neq 0 (
     echo Error: ollama is not installed. Please install Ollama from https://ollama.com/.
+    pause
     exit /b 1
 )
 
@@ -24,6 +26,7 @@ if %errorlevel% neq 0 (
     ollama pull qwen2.5:7b-instruct
     if %errorlevel% neq 0 (
         echo Error: Failed to download model. Please ensure Ollama is running.
+        pause
         exit /b 1
     )
 )
@@ -34,6 +37,7 @@ if not exist venv (
     python -m venv venv
     if %errorlevel% neq 0 (
         echo Error: Failed to create venv.
+        pause
         exit /b 1
     )
 )
@@ -48,6 +52,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 if %errorlevel% neq 0 (
     echo Error: Failed to install requirements.
+    pause
     exit /b 1
 )
 
@@ -58,4 +63,5 @@ echo Launching Flask application...
 start http://127.0.0.1:5000
 
 python app.py
+pause
 endlocal

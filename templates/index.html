@@ -569,6 +569,10 @@
                             <div class="mb-2"><b>Target Title:</b> ${news.news}</div>
                             <div class="mb-2"><b>Target Topic:</b> ${news.topic || ''}</div>
                             <div><b>Metadata:</b> <pre style="background:#f8f9fa; border-radius:6px; padding:8px; overflow-x:auto;">${prettyMeta(news.metadata)}</pre></div>
+                            <div class="mt-2 p-2" style="background:#e9ecef; border-radius:6px; font-family: monospace;">
+                                <b>Saved in JSON:</b> 
+                                ${rel ? `<span style="color:#055160;">"related": <b>"${rel}"</b>, "similarity_annotation": <b>${sim}</b></span>` : '<span class="text-muted"><i>None</i></span>'}
+                            </div>
                         </div>
                         
                         <div class="annotation-section p-3 bg-light rounded border">
