@@ -3,9 +3,20 @@ setlocal
 echo === Starting Annotation Enhanced App Setup ===
 
 :: Check Python
+set "PYTHON_CMD="
+
 python --version >nul 2>&1
-if %errorlevel% neq 0 (
-    echo Error: python is not installed. Please install Python 3.
+if %errorlevel% equ 0 set "PYTHON_CMD=python" & goto :python_found
+
+py --version >nul 2>&1
+if %errorlevel% equ 0 set "PYTHON_CMD=py" & goto :python_found
+
+python3 --version >nul 2>&1
+if %errorlevel% equ 0 set "PYTHON_CMD=python3" & goto :python_found
+
+:python_found
+if not defined PYTHON_CMD (
+    echo Error: Python is not installed. Please install Python 3.
     pause
     exit /b 1
 )
@@ -34,7 +45,7 @@ if %errorlevel% neq 0 (
 :: Create virtual env
 if not exist venv (
     echo Creating Python virtual environment (venv)...
-    python -m venv venv
+    %PYTHON_CMD% -m venv venv
     if %errorlevel% neq 0 (
         echo Error: Failed to create venv.
         pause
