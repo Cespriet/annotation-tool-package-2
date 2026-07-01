@@ -1,0 +1,27 @@
+{
+    "news_id": "climate_001",
+    "news_title": "Global Temperature Rise Reaches Critical Threshold in 2023",
+    "topic": "Climate Change",
+    "database": [
+        {
+            "news": "New Study Shows Accelerating Ice Melt in Greenland",
+            "topic": "Climate Change"
+        },
+        {
+            "news": "Renewable Energy Investments Hit Record High in 2023",
+            "topic": "Climate Change"
+        },
+        {
+            "news": "Major Oil Companies Announce Net Zero Targets",
+            "topic": "Climate Change"
+        },
+        {
+            "news": "Extreme Weather Events Increase by 40% in Last Decade",
+            "topic": "Climate Change"
+        },
+        {
+            "news": "Global Carbon Emissions Continue to Rise Despite Climate Pledges",
+            "topic": "Climate Change"
+        }
+    ]
+} 

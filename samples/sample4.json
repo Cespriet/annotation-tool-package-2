@@ -1,0 +1,27 @@
+{
+    "news_id": "econ_001",
+    "news_title": "Global Economy Shows Signs of Recovery in Q3 2023",
+    "topic": "Economics",
+    "database": [
+        {
+            "news": "Major Central Banks Announce Interest Rate Changes",
+            "topic": "Economics"
+        },
+        {
+            "news": "New Trade Agreement Boosts International Commerce",
+            "topic": "International Trade"
+        },
+        {
+            "news": "Tech Sector Leads Market Recovery",
+            "topic": "Stock Market"
+        },
+        {
+            "news": "Inflation Rates Begin to Stabilize",
+            "topic": "Economics"
+        },
+        {
+            "news": "Global Supply Chain Issues Impact Economic Growth",
+            "topic": "Economics"
+        }
+    ]
+} 

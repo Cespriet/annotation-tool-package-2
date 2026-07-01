@@ -1,0 +1,27 @@
+{
+    "news_id": "health_001",
+    "news_title": "Breakthrough in Cancer Treatment Shows 90% Success Rate",
+    "topic": "Healthcare",
+    "database": [
+        {
+            "news": "New Cancer Drug Receives FDA Approval",
+            "topic": "Healthcare"
+        },
+        {
+            "news": "Global Healthcare Costs Continue to Rise",
+            "topic": "Healthcare Economics"
+        },
+        {
+            "news": "Study Shows Link Between Diet and Cancer Prevention",
+            "topic": "Healthcare"
+        },
+        {
+            "news": "Major Hospital Network Implements AI for Patient Care",
+            "topic": "Healthcare Technology"
+        },
+        {
+            "news": "New Research Challenges Traditional Cancer Treatment Methods",
+            "topic": "Healthcare"
+        }
+    ]
+} 

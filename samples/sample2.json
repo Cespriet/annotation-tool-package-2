@@ -1,0 +1,27 @@
+{
+    "news_id": "tech_001",
+    "news_title": "AI Breakthrough: New Model Achieves Human-Level Understanding",
+    "topic": "Artificial Intelligence",
+    "database": [
+        {
+            "news": "Tech Giants Invest Billions in AI Research",
+            "topic": "Artificial Intelligence"
+        },
+        {
+            "news": "New AI Model Shows Promise in Medical Diagnosis",
+            "topic": "Healthcare Technology"
+        },
+        {
+            "news": "Global Chip Shortage Continues to Impact Tech Industry",
+            "topic": "Technology"
+        },
+        {
+            "news": "Major Tech Companies Announce AI Ethics Guidelines",
+            "topic": "Artificial Intelligence"
+        },
+        {
+            "news": "New Study Reveals AI's Impact on Job Market",
+            "topic": "Artificial Intelligence"
+        }
+    ]
+} 

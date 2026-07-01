@@ -1,0 +1,52 @@
+{
+  "examples": [
+    {
+      "related": "not_related",
+      "similarity_annotation": 0.1,
+      "text_anchor": "[Topic: Politics] [Date: 2024-02-29] Joe Biden Social Media Strategy - Newsweek",
+      "text_target": "[Topic: Politics] [Date: 2024-09-03] England school curriculum reform - Financial Times"
+    },
+    {
+      "related": "against",
+      "similarity_annotation": 0.7,
+      "text_anchor": "[Topic: Politics] [Date: 2024-08-08] Ethics probe into Boissonnault - Global News",
+      "text_target": "[Topic: Politics] [Date: 2024-07-04] Ethics commissioner will not investigate Boissonnault - Global News"
+    },
+    {
+      "related": "undetermined",
+      "similarity_annotation": 0.6,
+      "text_anchor": "[Topic: Politics] [Date: 2024-07-14] July 14 coverage Trump assassination attempt - CNN",
+      "text_target": "[Topic: Unknown] [Date: 2024-07-13] July 13 coverage Trump assassination attempt - CNN"
+    },
+    {
+      "related": "not_related",
+      "similarity_annotation": 0.2,
+      "text_anchor": "[Topic: Politics] [Date: 2023-12-18] Conservative Slams MAGA conspiracy - Newsweek",
+      "text_target": "[Topic: Politics] [Date: 2024-09-03] Ontario impaired driving prison order - Global News"
+    },
+    {
+      "related": "supporting",
+      "similarity_annotation": 0.8,
+      "text_anchor": "[Topic: Politics] [Date: 2024-07-15] Union Workers Tractor Factory Biden Trump - Newsmax",
+      "text_target": "[Topic: Unknown] [Date: 2024-07-15] Union workers tractor factory Biden Trump - Reuters"
+    },
+    {
+      "related": "against",
+      "similarity_annotation": 0.6,
+      "text_anchor": "[Topic: Politics] [Date: 2024-06-07] Sex-ed group return to schools - CBC",
+      "text_target": "[Topic: Politics] [Date: 2024-05-26] Sex education group banned from schools - CBC"
+    },
+    {
+      "related": "supporting",
+      "similarity_annotation": 0.8,
+      "text_anchor": "[Topic: Business] [Date: 2024-03-01] Tesla record quarterly deliveries - Reuters",
+      "text_target": "[Topic: Business] [Date: 2024-03-01] Tesla beats delivery estimates Q1 - Bloomberg"
+    },
+    {
+      "related": "undetermined",
+      "similarity_annotation": 0.5,
+      "text_anchor": "[Topic: Politics] [Date: 2024-05-01] School board debate dress code - AP",
+      "text_target": "[Topic: Politics] [Date: 2024-05-02] Parents await dress code meeting results - Local News"
+    }
+  ]
+}
