@@ -15,7 +15,17 @@ Open a terminal in this folder and run:
 ```
 
 **Windows:**
-Double-click `start.bat`
+
+Open a powershell terminal in this folder and run:
+```powershell
+powershell -ExecutionPolicy Bypass -File .\start.ps1
+```
+OR
+
+Open a command prompt terminal in this folder and run:
+```bash
+start.bat
+```
 
 ## Using the Tool
 1. Once the application starts, it will be available at `http://127.0.0.1:5000` (or the port specified in your terminal).
